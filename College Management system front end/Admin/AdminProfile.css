@@ -1,0 +1,154 @@
+/*Bhonagiri, Ravikiran - 1002122494*/
+/*Marupaka, Akhila - 1002067041*/
+/*Dasari, Diiya - 1001934969*/
+/*Ganji, Venkata Sai Devendranath - 1002087897*/
+#updateForm {
+    padding: 9px;
+    padding-left: 2px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}
+#myForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    z-index: 9999;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  /* Dialog box header */
+  #myForm h1 {
+    text-align: center;
+  }
+  
+  /* Dialog box content */
+  #myForm textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  /* Dialog box buttons */
+  #myForm button {
+    margin-right: 10px;
+  }
+
+#name,#phone, #address, #email {
+  width: 90%;
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+#closeForm, #update button {
+    padding: 9px;
+    padding-left: 2px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}
+#update button {
+    padding: 9px;
+    padding-left: 2px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+ul, li, h1, form, label, input{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the user profile form */
+#profile-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+
+/* Reset some default styles */
+h1, label, span {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.profile {
+	background-color: #cdcdcd;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.field {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+label {
+	font-weight: bold;
+	min-width: 100px; /* Set a minimum width for labels to create consistent spacing */
+}
+
+#search {
+    width: 100px;
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#edit-profile-button{
+    float: right;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #00BBFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}

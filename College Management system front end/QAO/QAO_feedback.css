@@ -1,0 +1,118 @@
+/*Bhonagiri, Ravikiran - 1002122494*/
+/*Marupaka, Akhila - 1002067041*/
+/*Dasari, Diiya - 1001934969*/
+/*Ganji, Venkata Sai Devendranath - 1002087897*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+body, ul, li, h1, form, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #007BFF;
+    padding: 20px 0;
+}
+
+
+textarea {
+    width: 50%;
+    padding: 10px;
+	padding-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#actions button {
+    padding: 10px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px; 
+}
+#new-question {
+    width: 30%; 
+	margin-bottom: 20px;
+	
+
+}
+#container-feedback label {
+    float: left;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#search-feedback-course {
+ 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+#feedbackForm button {
+    padding: 10px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+#search {
+    width: 100px; 
+	
+	width: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-container-course{
+	margin-bottom: 20px;
+}
+#fname {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+
+#container-feedback input[type="text"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}

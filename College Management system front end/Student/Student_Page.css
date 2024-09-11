@@ -1,0 +1,81 @@
+/*Bhonagiri, Ravikiran - 1002122494*/
+/*Marupaka, Akhila - 1002067041*/
+/*Dasari, Diiya - 1001934969*/
+/*Ganji, Venkata Sai Devendranath - 1002087897*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+body, ul, li, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and style for the header */
+header {
+    background-color: #007BFF;
+    padding: 20px 0;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#scroll-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Set the desired width of your centered section */
+    margin: 0 auto; /* This centers the section horizontally */
+    text-align: center; /* This centers the text/content inside the section */
+}
+
+/* Style the clickable boxes */
+#scroll-box #scrollable-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: normal; /* Prevent boxes from wrapping to the next line */
+}
+
+#scroll-box #scrollable-container {
+	max-width: 80%; 
+    width:80%;        
+            
+        }
+#scroll-box #scrollable-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.box {
+    width: 400px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.box p {
+	align-items: center;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#search {
+    width: 100px;
+}

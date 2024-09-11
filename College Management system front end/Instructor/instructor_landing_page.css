@@ -1,0 +1,147 @@
+/*Bhonagiri, Ravikiran - 1002122494*/
+/*Marupaka, Akhila - 1002067041*/
+/*Dasari, Diiya - 1001934969*/
+/*Ganji, Venkata Sai Devendranath - 1002087897*/
+
+#landing-home section {
+    background-color: #f0f0f0 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    margin: 10px 0 !important;
+	margin-left: 20px !important;
+}
+#show {
+    padding: 10px;
+    text-align: center;
+    background-color: #00BBFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+       }
+       
+
+/* Style the form group */
+.form-group {
+    margin-bottom: 20px; /* Add some space between form groups */
+}
+
+/* Style the label */
+.form-group label {
+    font-weight: bold; /* Make the label text bold */
+}
+
+/* Style the select element */
+#options {
+    width: 20%; /* Make the select element take up the full width of its container */
+    padding: 10px; /* Add some padding to the select element */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+/* Style the options within the select element */
+#options option {
+    padding: 5px; /* Add some padding to the options */
+}
+
+/* Style the hover state of the options */
+#options option:hover {
+    background-color: #f2f2f2; /* Change the background color on hover */
+}
+
+button {
+	padding: 10px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+body, ul, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Set a background color and style for the header */
+header {
+    background-color: #007BFF;
+    padding: 20px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/* Reset some default margin and padding for better alignment */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style headings and text */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Style the list */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+#search {
+    width: 100px; /* Adjust the width as needed */
+}
+

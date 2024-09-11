@@ -1,0 +1,95 @@
+/*Bhonagiri, Ravikiran - 1002122494*/
+/*Marupaka, Akhila - 1002067041*/
+/*Dasari, Diiya - 1001934969*/
+/*Ganji, Venkata Sai Devendranath - 1002087897*/
+
+#landing-page{
+    font-family: Arial, sans-serif;
+}
+
+#landing-page {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Set a background color and style for the header */
+#landing-page header {
+    background-color: #007BFF;
+    padding: 20px 0;
+}
+
+/* Style the navigation menu */
+#lp ul {
+    list-style: none;
+    text-align: center;
+}
+
+#lp ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#lp ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the main sections */
+#lp-hd section {
+    padding: 50px;
+	text-align: center;
+}
+
+
+#lp-hd #lp h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and padding to sections for spacing */
+#lp-hd section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style headings and text */
+#lp-hd #lp h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#lp-hd #lp h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#lp-hd #lp h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#lp-hd p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Style the list */
+#lp-hd ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#lp-hd li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+#search {
+    width: 100px; /* Adjust the width as needed */
+}

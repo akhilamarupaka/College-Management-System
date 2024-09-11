@@ -1,0 +1,35 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+
+    text-align: left;
+}
+
+/* .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.forgot-password {
+    text-align: right;
+}
+
+ .btn-register-link,.btn-login-link,.btn-forgot-link {
+     padding: 9px;
+    padding-left: 2px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+} 

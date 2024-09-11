@@ -1,0 +1,34 @@
+/*Bhonagiri, Ravikiran - 1002122494*/
+/*Marupaka, Akhila - 1002067041*/
+/*Dasari, Diiya - 1001934969*/
+/*Ganji, Venkata Sai Devendranath - 1002087897*/
+
+
+
+
+
+.line-space {
+        margin-bottom: 20px; /* Adds 20 pixels of space below elements with class "line-space" */
+    }
+
+.table-container {
+    text-align: center; /* Center the table horizontally */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+	margin-left: 20px;
+    width:auto;
+}
+    
+table {
+    margin: 0 auto; /* Center the table horizontally using margin */
+    border-collapse: collapse; /* Optional: Remove spacing between table cells */
+}
+    
+table, th, td {
+    border: 1px solid black; /* Optional: Add border to table and cells */
+    padding: 8px; /* Optional: Add padding to cells for spacing */
+}
+    

@@ -1,0 +1,90 @@
+/*Bhonagiri, Ravikiran - 1002122494*/
+/*Marupaka, Akhila - 1002067041*/
+/*Dasari, Diiya - 1001934969*/
+/*Ganji, Venkata Sai Devendranath - 1002087897*/
+
+/* Reset some default styles */
+.button {
+    padding: 10px;
+    background-color: #007bff;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  #updateForm {
+    padding: 9px;
+    padding-left: 2px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}
+#myForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    z-index: 9999;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  /* Dialog box header */
+  #myForm h1 {
+    text-align: center;
+  }
+  
+  /* Dialog box content */
+  #myForm textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  /* Dialog box buttons */
+  #myForm button {
+    margin-right: 10px;
+  }
+
+#name,#phone, #address, #email {
+  width: 90%;
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+#closeForm, #update button {
+    padding: 9px;
+    padding-left: 2px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}
+#update button {
+    padding: 9px;
+    padding-left: 2px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}

@@ -1,0 +1,136 @@
+/*Bhonagiri, Ravikiran - 1002122494*/
+/*Marupaka, Akhila - 1002067041*/
+/*Dasari, Diiya - 1001934969*/
+/*Ganji, Venkata Sai Devendranath - 1002087897*/
+
+ body {
+    font-family: Arial, sans-serif;
+}
+
+body, ul, li, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and style for the header */
+header {
+    background-color: #007BFF;
+    padding: 20px 0;
+}
+
+
+
+/* Style the main sections */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ .barwidth2 {
+    background-color: #90EE90;
+    height: 20px;
+    line-height: 25px;
+    color: white;
+    display: block;
+    transition: width 0.5s;
+    }
+
+.barwidth1 {
+
+    background-color: #90EE23;
+	height: 20px;
+    line-height: 25px;
+    color: white;
+    display: block;
+    transition: width 0.5s;
+}
+
+ .barwidth3 {
+
+    background-color: #ff0000;
+	height: 20px;
+    line-height: 25px;
+    color: white;
+    display: block;
+    transition: width 0.5s;
+
+}
+ .grade {
+      margin-left: 10px;
+ }
+.bargraph {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+#report {
+   
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Set the desired width of your centered section */
+    margin: 0 auto; /* This centers the section horizontally */
+    text-align: center; /* This centers the text/content inside the section */
+}
+
+#show-report {
+	padding: 10px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}
+.bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+        }
+
+ .rclass {
+            background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+	margin-left: 20px;
+  }
+
+.bar-name {
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+ }
+ .form-group {
+    margin-bottom: 20px;
+}
+ 
+#search {
+    width: 100px; 
+	width: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+	padding: 10px;
+	text-align: center;
+	margin-bottom:10px;
+	background-color: #00BBFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}

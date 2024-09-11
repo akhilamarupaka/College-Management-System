@@ -1,0 +1,130 @@
+/*Bhonagiri, Ravikiran - 1002122494*/
+/*Marupaka, Akhila - 1002067041*/
+/*Dasari, Diiya - 1001934969*/
+/*Ganji, Venkata Sai Devendranath - 1002087897*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+body, ul, li, h1, form, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and style for the header */
+header {
+    background-color: #007BFF;
+    padding: 20px 0;
+}
+
+
+main {
+    display: flex;
+}
+
+/* Style the sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+
+#edit-profile-button{
+    float: right;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #00BBFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Style the user profile form */
+#profile-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+
+/* Reset some default styles */
+body, h1, div, label, span {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the main content section */
+main {
+    text-align: left;
+}
+
+.profile {
+	background-color: #f0f0f0;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.field {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+label {
+	font-weight: bold;
+	min-width: 100px; /* Set a minimum width for labels to create consistent spacing */
+}
+
+span {
+	display: inline-block;
+	min-width: 150px; /* Set a minimum width for spans to create consistent spacing */
+	margin-left: 10px; /* Add a margin to separate the label and span */
+}
+#search {
+    width: 100px;
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
